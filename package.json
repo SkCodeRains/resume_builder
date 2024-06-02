@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build simple-resume --base-href /simple-resume/ && build.bat  ",
     "watch": "ng build --watch --configuration development",
     "watch-resume-data": "ng build resume-data --watch --configuration development",
     "test": "ng test",

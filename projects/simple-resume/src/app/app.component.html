@@ -1,11 +1,13 @@
-<button class="position-fixed top-0 start-0 m-5 p-5 bg-danger print-btn" (click)="print()">
-  Print
-</button>
+<section class="screen">
+  <button class="position-fixed top-0 start-0 m-5 p-5 bg-danger print-btn btn-outline-danger" (click)="print()" title="Please select destination Save As Pdf">
+    <div>Print</div>
+  </button>
 
-<div class="a4">
-  <app-header />
-  <div class="main-body h-100 w-100 flex-row-rever se">
-    <app-main-section style="width: 60% !important;" />
-    <app-side-section style="width: 45% !important;" />
+  <div class="a4">
+    <app-header />
+    <div class="main-body h-100 w-100 flex-row-rever se">
+      <app-main-section style="width: 60% !important;" />
+      <app-side-section style="width: 45% !important;" />
+    </div>
   </div>
-</div>
+</section>

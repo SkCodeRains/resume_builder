@@ -18,6 +18,9 @@
     // orientation: portrait;
 }
 
+.print-btn{
+    border-radius: 50%;
+}
 ::ng-deep {
     .panel {
         // border: 1px rgb(220, 53, 69) solid;
@@ -54,3 +57,4 @@
     // overflow: visible
     }
 }
+

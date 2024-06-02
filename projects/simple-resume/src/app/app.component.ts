@@ -15,3 +15,4 @@ export class AppComponent implements AfterViewInit {
     window.print();
   }
 }
+ 
