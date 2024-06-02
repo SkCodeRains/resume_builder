@@ -1,0 +1,210 @@
+{
+  "sk": {
+    "headerConfig": {
+      "name": "Mohammed Shaikh",
+      "title": "FULL STACK DEVELOPER",
+      "options": [
+        {
+          "name": "+917972914439",
+          "icon": "bi-telephone-inbound-fill",
+          "href": "tel:+917972914439"
+        },
+        {
+          "name": "",
+          "icon": "bi-pin-map-fill",
+          "value": "Amravati, Maharashtra, India"
+        },
+        {
+          "name": "skcoderains@gmail.com",
+          "icon": "bi-google",
+          "href": "mailto:skcoderains@gmail.com"
+        },
+        {
+          "name": "https://www.linkedin.com/in/CodeRains/",
+          "icon": "bi-linkedin",
+          "href": "https://www.linkedin.com/in/CodeRains/"
+        },
+        {
+          "name": "https://leetcode.com/coderains/",
+          "icon": "bi-code-square",
+          "href": "https://leetcode.com/coderains/"
+        },
+        {
+          "name": "https://github.com/SkCodeRains",
+          "icon": "bi-github",
+          "href": "https://github.com/SkCodeRains"
+        },
+        {
+          "name": "https://nextleap.app/portfolio/mohammed-shaikh",
+          "icon": "bi-award-fill",
+          "href": "https://nextleap.app/portfolio/mohammed-shaikh"
+        }
+      ]
+    },
+    "panels": [
+      {
+        "title": "Summary",
+        "exps": [
+          {
+            "role": " ",
+            "lists": [
+              "\\BA competent IT Professional\\B with around \\B2+ years\\B of experience in \\BSingle Page Web Application Development\\B. Bringing expertise from previous experience at \\BOSI System\\B as a Full Stack Developer to build Security inspection solutions and enhance \\Bproblem-solving\\B skills. Proficient in \\Bbuilding\\B robust, scalable, \\Bcross-browser compatible\\B, and \\Bresponsive web applications\\B using the power of \\BAngular\\B. Skilled in creating \\Breusable interfaces\\B, animations, libraries, standalone components, hydration, and SSR. Utilizing the immersive power of \\Bmicro-front-end\\B by Angular elements. Building highly dynamic, consistent applications with \\BBootstrap and Material\\B. Experienced in creating and managing Spring Boot 3 backend services, developing \\BRESTful APIs\\B, and securing web resources with Spring Boot Security. Experienced in building backend \\Bdata structures\\B using Spring Boot (Java) and Hibernate."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Skills And Technologies",
+        "exps": [
+          {
+            "role": " ",
+            "lists": [
+              "\\BAngular Framework :\\B In-depth understanding of \\PAngular\\P framework, including its core concepts like components, services, directives, modules, pipes, and dependency injection.Proficiency in Typescript.Strong knowledge of HTML5 and CSS3 for structuring and styling Angular applications.",
+              "\\BRESTful API's and RxJS:\\B Experience in consuming \\PRESTful APIs\\P using \\PAngular\\P's HttpClient module for fetching data from servers and mapping data by RxJS and integrating it into \\PAngular\\P applications.",
+              "\\BState Management:\\B Knowledge of state management solutions like \\PNgRx\\P or \\PAkita\\P for managing application state, especially in large-scale applications with complex data flows.",
+              "\\BUnit Testing:\\B Proficiency in writing unit tests for \\PAngular\\P applications using tools like \\PJasmine\\P and \\PKarma\\P to ensure code quality and maintainability.",
+              "\\BComponent-Based Architecture:\\B Understanding of component-based architecture \\Pstandalone component\\P and best practices for building reusable and maintainable components in \\PAngular\\P applications.",
+              "\\BDebugging and Performance Optimization:\\B Ability to debug \\PAngular\\P applications effectively using browser developer tools and optimize application performance by identifying and resolving bottlenecks.",
+              "\\BVersion Control Systems:\\B Experience with version control systems like \\PGit\\P for collaborating on \\PAngular\\P projects with other developers and managing code changes.",
+              "\\BProblem-Solving Skills:\\B Strong problem-solving skills and the ability to troubleshoot issues and find efficient solutions while developing \\PAngular\\P applications."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Professional Experience",
+        "exps": [
+          {
+            "role": "Full Stack Software Developer @ OSI Systems",
+            "date": {
+              "from": "May 2022",
+              "to": "Sept 2023",
+              "at": "Hyderabad",
+              "atIcon": "bi-pin-fill",
+              "fromIcon": "bi-calendar-check"
+            },
+            "lists": [
+              "As part of \\BOSI System\\B Developer team responsible for building highly reliable and scalable features within \\Bmicro services\\B and \\BREST API\\B based infrastructure.",
+              "Spearheaded \\Bdevelopment\\B of scalable \\BMultitenant\\B features in \\Bmicroservices\\B using \\BSpring Boot\\B and \\BPostgreSQL\\B. Build \\BSpringFlo\\B Advanced Features based application.",
+              "Engineered a \\Bresponsive Angular\\B web app, integrating with \\BOKTA\\B and supporting \\BOAuth 2.0\\B and \\BOpenID Connect\\B. And the \\Bauthorization management\\B tools.",
+              "Created reusable component libraries for accelerated \\Bdevelopment\\B and enhanced performance.",
+              "Established \\Brole-based access control (RBAC)\\B and collaborated cross-functionally for seamless integration. Led the \\BMicro-front-end\\B development by using angular-elements.",
+              "\\BTechnologies & libraries used : \\B\\Pjava\\P, \\PAngular\\P, \\PMicro-Services\\P, \\PMicro-Front-End\\P, \\PSpringFLo\\P, \\PSpring Boot\\P, \\PSpring Security\\P, \\P, Angular Material\\P, \\PNgBootstrap\\P, \\PD3.JS\\P, \\PGridster.Js\\P, \\PDocker\\P, \\POKTA\\P, \\POAuth2\\P, \\PJenkins\\P, \\PLog4J\\P, \\PPostgres\\P, \\PRedis\\P, \\PRabbitMQ\\P, \\PWebSocket\\P"
+            ]
+          },
+          {
+            "role": "Internship @ OSI Systems",
+            "date": {
+              "from": "Nov 2021",
+              "to": "May 2022",
+              "at": "Hyderabad",
+              "atIcon": "bi-pin-fill",
+              "fromIcon": "bi-calendar-check"
+            },
+            "lists": [
+              "Contributed to the \\Bdevelopment\\B of a scalable web application powered by \\BAngular\\B elements micro-frontend.",
+              "Engineered responsive web interfaces using \\BMedia Queries\\B, \\BFlex-box\\B, \\BCSS Grid\\B, \\BBootstrap\\B, \\BAngular Material\\B, and \\BJQuery\\B.",
+              "Implemented \\BHTTP requests\\B, \\BNgRx\\B, and complex state management for a dynamic web app.",
+              "\\BTechnologies & libraries used : \\B \\PAngular\\P, \\PHTML5\\P, \\PCSS3\\P, \\PTypeScript\\P, \\PJavaScript\\P, \\PAngular Material\\P, \\PNg Bootstrap\\P, \\PRxJS\\P, \\PUI/UX experiences\\P, \\Prouting\\P, \\Pnavigation\\P, \\Panimations\\P, \\PRESTful APIs\\P, \\Ptesting\\P, \\Pdebugging\\P, \\Pversion control\\P, \\PGit/GitHub\\P, \\Pbuild and deployment\\P, \\PCI/CD pipelines\\P, \\PJenkins\\P, \\PDocker\\P, \\PKubernetes\\P, \\PAgile development\\P, \\Pservices\\P, \\Pdependency injection\\P, \\P form/Reactive Forms \\P"
+            ]
+          }
+        ]
+      }
+    ],
+    "sidePanel": [
+      {
+        "title": "Strength",
+        "options": [
+          {
+            "class": "bi-boxes",
+            "text": "Proficient problem-solver adept at innovative solutions through logical reasoning."
+          },
+          {
+            "class": "bi-microsoft-teams",
+            "text": "Effective communicator within development teams, contributing ideas and collaborating to achieve project goals."
+          },
+          {
+            "class": "bi-radar",
+            "text": "Precise coder with a keen eye for detail, ensuring clean and efficient code."
+          }
+        ]
+      },
+      {
+        "title": "certificates",
+        "options": [
+          {
+            "head": "NEXT-Leap",
+            "text": "Data Structure And Algorithms with java"
+          },
+          {
+            "head": "Naresh IT Hyderabad",
+            "text": "Full Stack Java Developer affiliated by NASSCOM"
+          },
+          {
+            "head": "Udemy",
+            "text": "Master Spring Boot 3 & Spring Framework 6 with Java"
+          },
+          {
+            "head": "Udemy",
+            "text": "Spring Security 6 Zero to Master along with JWT,OAUTH2"
+          },
+          {
+            "head": "Udemy",
+            "text": "Angular - The Complete Guide (2024 Edition)"
+          }
+        ]
+      },
+      {
+        "title": "Projects",
+        "options": [
+          {
+            "head": "Instagram clone",
+            "text": "Web application using angular spring-boot "
+          },
+          {
+            "head": "Task management",
+            "text": "web application J2EE,To manage task by drag & drop user can can change the state of task to completed, continue or have to do or can delete and edit it is multi-user web Application."
+          },
+          {
+            "head": "Online Crime Report",
+            "text": "web application J2EE, It will track the reports both user based and Anonymous and submit case details to related station,and keep managing status of report."
+          },
+          {
+            "head": " Bank system",
+            "text": "web application J2EE, Online transaction and managing users details and balance state, it is small concept based application for bank process."
+          },
+          {
+            "head": "Files Uploading",
+            "text": "web application J2EE, like Cloud storage user can upload the data and can view listen audio video photos documents .etc files are stored in database Blob."
+          },
+          {
+            "head": "Online exam Application",
+            "text": "web application J2EE, For Conducting Exam of students and showing them Result as soon as exam time up or submitted, administrator can give option to view which answer is correct and you selected."
+          },
+          {
+            "head": "Library management",
+            "text": "Desktop Application,To Manage the Books of Library and issue and return Functionality."
+          }
+        ]
+      },
+      {
+        "title": "Education",
+        "options": [
+          {
+            "head": ". . Bachelor Of Computer Application (BCA)",
+            "text": "2020, Babanrao Deshmukh College Amravati"
+          }
+        ]
+      },
+      {
+        "title": "CAREER",
+        "options": [
+          {
+            "head": "",
+            "text": "To work in an organization where I can enhance my skills abilities in its learning challenging and development climate which contribute towards the organizational as well as my personal growth."
+          }
+        ]
+      }
+    ]
+  }
+}

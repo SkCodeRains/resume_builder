@@ -1,0 +1,16 @@
+section.a4 {
+    // background-color: rgb(241, 238, 238);
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+    @page {
+        height: 100%;
+        width: 100%
+    }
+
+    width: 28cm;
+    height: calc(40cm - 15px);
+    display: flex;
+
+
+}

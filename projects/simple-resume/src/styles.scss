@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --bs-danger-rgb: 190, 53, 69;
+}
+
+html,
+body {
+    // font-family: "YS Text", arial, helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 13px; 
+
+    .btn,
+    * {
+        font-weight: 600;
+    }
+
+    .text-danger {
+        // --bs-text-opacity: 0.8;
+    }
+
+    .bg-success {
+        --bs-bg-opacity: 1;
+        background-color: rgb(29 88 60) !important;
+    }
+
+    .h3 {
+        font-size: 20px !important;
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.max-content {
+    width: max-content;
+}
+
+strong{
+    font-weight: 900;
+}

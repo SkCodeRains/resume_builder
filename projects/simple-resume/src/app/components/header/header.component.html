@@ -1,0 +1,26 @@
+<div class="header panel text-black bg">
+    <div class="">
+        <div class="name text-uppercase d-flex " name="name">            
+            <div class="link d-flex text-danger align-items-center w-100 justify-content-between">
+                {{personalDetails.name}}
+                <span class="d-flex align-items-center p-2  "><a target="_blank"
+                        class="text-capitalize ms-2 btn text-start m-0 p-0 text-wh ite" title="+917972914439"
+                        href="tel:+917972914439"><span
+                            class="bi-telephone-inbound-fill h4 m-0 me-2 p-0 text"></span><span>+917972914439</span></a>
+                </span>
+            </div>
+        </div>
+        <div class="bg-danger p-2 position-relative summary text-capitalize">
+            <div class="p-1">
+                <div class="corner left-top-corner"></div>
+                <div class="corner right-bottom-corner"></div>
+                <div class="p-2 bg-danger text-bg-danger fw-bold ">
+
+                    <span [innerHtml]="personalDetails.summary|textTransform"></span>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

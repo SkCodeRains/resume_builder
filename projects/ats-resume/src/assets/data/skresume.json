@@ -1,0 +1,330 @@
+{
+    "sk": {
+        "headerConfig": {
+            "name": "Mohammed Shaikh",
+            "title": "FULL STACK DEVELOPER",
+            "options": [
+                {
+                    "name": "+917972914439",
+                    "icon": "bi-telephone-inbound-fill",
+                    "href": "tel:+917972914439"
+                },
+                {
+                    "name": "Amravati , Maharashtra (MH) , India 444602",
+                    "icon": "bi-pin-map-fill",
+                    "value": "Amravati , Maharashtra , India",
+                    "href": "https://maps.app.goo.gl/6Bn5ud5X1i2P5zdHA"
+                },
+                {
+                    "name": "skcoderains@gmail.com",
+                    "icon": "bi-google",
+                    "href": "mailto:skcoderains@gmail.com"
+                },
+                {
+                    "name": "https://www.linkedin.com/in/CodeRains/",
+                    "icon": "bi-linkedin",
+                    "href": "https://www.linkedin.com/in/CodeRains/"
+                },
+                {
+                    "name": "https://leetcode.com/coderains/",
+                    "icon": "bi-code-square",
+                    "href": "https://leetcode.com/coderains/"
+                },
+                {
+                    "name": "https://github.com/SkCodeRains",
+                    "icon": "bi-github",
+                    "href": "https://github.com/SkCodeRains"
+                },
+                {
+                    "name": "https://nextleap.app/portfolio/mohammed-shaikh",
+                    "icon": "bi-award-fill",
+                    "href": "https://nextleap.app/portfolio/mohammed-shaikh"
+                }
+            ]
+        },
+        "panels": [
+            {
+                "title": "Skills And Technologies",
+                "exps": [
+                    {
+                        "role": "Back End",
+                        "lists": [
+                            "\\BBack-End Development:\\B \\PJava\\P, \\PSpring Boot Expertise\\P, \\PSpring MVC\\P, \\PSpring Framework\\P, \\PRESTful API Development\\P, \\PDatabase Integration\\P, \\PMicroservices Architecture\\P, \\PSpring Security\\P, \\PPostgres\\P, \\PMySql\\P, \\POracle DB\\P, \\PTesting and Quality Assurance\\P, \\PDependency Management\\P, \\PLogging and Monitoring\\P, \\PMessaging and Asynchronous Processing\\P, \\PContainerization and Deployment\\P, \\PContinuous Integration and Deployment (CI/CD)\\P, \\PAgile Development and Collaboration\\P, \\PORM (Object-Relational Mapping)\\P, \\PAuthentication and Authorization (OAuth, JWT)\\P, \\PContainerization (Docker)\\P"
+                        ]
+                    },
+                    {
+                        "role": "Front-End",
+                        "lists": [
+                            "\\BFront-End Development:\\B \\PHTML\\P, \\PCSS/SCSS\\P, \\PTypeScript\\P, \\PJavaScript\\P, \\PAngular Material\\P, \\PNg Bootstrap\\P, \\PDirectives / Pipes\\P, \\PObservable\\P, \\PngForm / Reactive Forms\\P, \\PAngular Hooks\\P, \\PAngular Animation\\P, \\PRESTful APIs and HTTP Interactions\\P, \\PRouting and Navigation\\P, \\PTesting and Debugging\\P, \\PBuild and Deployment\\P, \\PNgRx State Management\\P, \\PServices and Dependency Injection\\P"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Professional Experience",
+                "exps": [
+                    {
+                        "role": "Full Stack Software Developer @ OSI Systems",
+                        "date": {
+                            "from": "May 2022",
+                            "to": "Sept 2023",
+                            "at": "Hyderabad",
+                            "atIcon": "bi-pin-fill",
+                            "fromIcon": "bi-calendar-check"
+                        },
+                        "lists": [
+                            "Spearheaded \\Bdevelopment\\B of scalable \\BMultitenant\\B features in \\Bmicroservices\\B using \\BSpring Boot\\B and \\BPostgreSQL\\B.",
+                            "Engineered a \\Bresponsive Angular\\B web app, integrating with \\BOKTA\\B and supporting \\BOAuth 2.0\\B and \\BOpenID Connect\\B.",
+                            "Created reusable component libraries for accelerated \\Bdevelopment\\B and enhanced performance.",
+                            "Established \\Brole-based access control (RBAC)\\B and collaborated cross-functionally for seamless integration.",
+                            "\\BTechnologies & libraries used : \\B\\Pjava\\P \\PAngular\\P \\PMicro-Services\\P \\PMicro-Front-End\\P \\PSpringFLo\\P \\PSpring Boot\\P \\PSpring Security\\P \\P Angular Material\\P \\PNgBootstrap\\P \\PD3.JS\\P \\PGridster.Js\\P \\PDocker\\P \\POKTA\\P \\POAuth2\\P \\PJenkins\\P \\PLog4J\\P \\PPostgres\\P \\PRedis\\P \\PRabbitMQ\\P \\PWebSocket\\P"
+                        ]
+                    },
+                    {
+                        "role": "Internship @ OSI Systems",
+                        "date": {
+                            "from": "Nov 2021",
+                            "to": "May 2022",
+                            "at": "Hyderabad",
+                            "atIcon": "bi-pin-fill",
+                            "fromIcon": "bi-calendar-check"
+                        },
+                        "lists": [
+                            "Contributed to the \\Bdevelopment\\B of a scalable web application powered by \\BAngular\\B elements micro-frontend.",
+                            "Engineered responsive web interfaces using \\BMedia Queries\\B, \\BFlex-box\\B, \\BCSS Grid\\B, \\BBootstrap\\B, \\BAngular Material\\B, and \\BJQuery\\B.",
+                            "Implemented \\BHTTP requests\\B, \\BNgRx\\B, and complex state management for a dynamic web app.",
+                            "\\BTechnologies & libraries used : \\B \\PAngular\\P, \\PHTML5\\P, \\PCSS3\\P, \\PTypeScript\\P, \\PJavaScript\\P, \\PAngular Material\\P, \\PNg Bootstrap\\P, \\PRxJS\\P, \\PUI/UX experiences\\P, \\Prouting\\P, \\Pnavigation\\P, \\Panimations\\P, \\PRESTful APIs\\P, \\Ptesting\\P, \\Pdebugging\\P, \\Pversion control\\P, \\PGit/GitHub\\P, \\Pbuild and deployment\\P, \\PCI/CD pipelines\\P, \\PJenkins\\P, \\PDocker\\P, \\PKubernetes\\P, \\PAgile development\\P, \\Pservices\\P, \\Pdependency injection\\P, \\Pform development (ngForm/Reactive Forms) \\P"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Skills / Technologies",
+                "hidden": true,
+                "adds": [
+                    {
+                        "title": "",
+                        "data": [
+                            "Problem analysis",
+                            "Solutions architects",
+                            "Smart-Hard Worker",
+                            "Creative",
+                            "Quick Learner",
+                            "Best Coder",
+                            "Front-End Development",
+                            "Angular Libraries and Tools",
+                            "RESTful APIs and HTTP Interactions",
+                            "Routing and Navigation",
+                            "Testing and Debugging",
+                            "Version Control and Collaboration",
+                            "Build and Deployment",
+                            "Agile Development and Collaboration",
+                            "NgRx State Management",
+                            "Services and Dependency Injection",
+                            "HTML",
+                            "CSS/SCSS",
+                            "TypeScript",
+                            "JavaScript",
+                            "Angular Material",
+                            "Ng Bootstrap",
+                            "Directives / Pipes",
+                            "Observable",
+                            "ngForm / Reactive Forms",
+                            "Angular Hooks",
+                            "Angular Animation",
+                            "Node.js",
+                            "Spring Boot Expertise",
+                            "Spring MVC",
+                            "Spring Framework",
+                            "Java Development",
+                            "RESTful API Development",
+                            "Database Integration",
+                            "Microservices Architecture",
+                            "Spring Security",
+                            "Postgres",
+                            "MySql",
+                            "Oracle DB",
+                            "Testing and Quality Assurance",
+                            "Dependency Management",
+                            "Logging and Monitoring",
+                            "Messaging and Asynchronous Processing",
+                            "Containerization and Deployment",
+                            "Continuous Integration and Deployment (CI/CD)",
+                            "Agile Development and Collaboration",
+                            "ORM (Object-Relational Mapping)",
+                            "Authentication and Authorization (OAuth, JWT)",
+                            "Containerization (Docker)",
+                            "Message Brokers (e.g., RabbitMQ, Kafka)"
+                        ]
+                    },
+                    {
+                        "title": "Backend",
+                        "hidden": true,
+                        "data": []
+                    },
+                    {
+                        "title": "DevOps",
+                        "hidden": true,
+                        "data": [
+                            "DevOps Expertise",
+                            "Containerization and Orchestration",
+                            "Cloud Platforms",
+                            "Monitoring and Logging",
+                            "Security and Compliance",
+                            "Collaboration and Communication",
+                            "Git",
+                            "Docker",
+                            "Jenkins"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Education",
+                "exps": [
+                    {
+                        "role": "Master Of Computer Application (MCA)",
+                        "date": {
+                            "from": "2023",
+                            "to": "2024",
+                            "at": "Chandigarh University Punjab",
+                            "atIcon": "bi-pin-fill",
+                            "fromIcon": "bi-calendar-check"
+                        }
+                    },
+                    {
+                        "role": "Bachelor Of Computer Application (BCA)",
+                        "date": {
+                            "from": "2015",
+                            "to": "2020",
+                            "at": "Babanrao Deshmukh College Amravati",
+                            "atIcon": "bi-pin-fill",
+                            "fromIcon": "bi-calendar-check"
+                        }
+                    }
+                ]
+            }
+        ],
+        "sidePanel": [
+            {
+                "title": "Achievements",
+                "options": [
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\BSeamless Migrations :\\B Executed seamless migrations, significantly improving application load time and enhancing the user experience for a large user base."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\B User Configuration and Management Systems : \\B Designed and implemented robust User Configuration and Management Systems, resulting in a substantial reduction in user support requests and considerable time savings for the team."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\B Developed Transaction Control System : \\BImplemented an Application Flow Transaction Control System, enhancing transaction processing efficiency and reducing errors, leading to notable cost savings."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\B Created Responsive carousel :\\B Received positive feedback for developing a responsive full-width auto-adjust carousel, contributing to a substantial increase in user engagement based on available usage data."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\B Update SpringFlo Angular open-source app : \\B Conducted in-depth research on the springFlo Angular open-source app, leading to the creation of a latest updated advanced featured library, widely adopted within the organization for improved development speed and code quality."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\BStreamlined deployment process : \\B Initiated and implemented a streamlined deployment process, resulting reduction in deployment time and minimizing potential errors."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\BLed a knowledge-sharing initiative : \\B Conducting workshops that increased team proficiency in Angular."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\BCollaborated with cross-functional teams : \\B To optimize database queries, leading to improvement in application performance."
+                    },
+                    {
+                        "class": "bi-award-fill",
+                        "text": "\\B Developed Customs Widgets  : \\B To provide multiple templates of the widgets dashboard built the custom \\BCustom Widgets\\B panel to make the dashboard more Flexible and Featuristic."
+                    }
+                ]
+            },
+            {
+                "title": "certificates",
+                "options": [
+                    {
+                        "head": "Udemy",
+                        "text": "Master Spring Boot 3 & Spring Framework 6 with Java"
+                    },
+                    {
+                        "head": "NEXT-Leap",
+                        "text": "Data Structure And Algorithms with java"
+                    },
+                    {
+                        "head": "Udemy",
+                        "text": "Spring Security 6 Zero to Master along with JWT,OAUTH2"
+                    },
+                    {
+                        "head": "Udemy",
+                        "text": "Angular - The Complete Guide (2024 Edition)"
+                    },
+                    {
+                        "head": "Naresh IT Hyderabad",
+                        "text": "Full Stack Java Developer affiliated by NASSCOM"
+                    }
+                ]
+            },
+            {
+                "title": "Strength",
+                "hidden": true,
+                "options": [
+                    {
+                        "class": "bi-boxes",
+                        "text": "Demonstrate exceptional analytical and problem-solving skills."
+                    },
+                    {
+                        "class": "bi-microsoft-teams",
+                        "text": "Empower teams through positive thinking and self-motivation."
+                    },
+                    {
+                        "class": "bi-radar",
+                        "text": "Exhibit fast adaptability to various situations."
+                    }
+                ]
+            },
+            {
+                "title": "Projects",
+                "options": [
+                    {
+                        "head": "Online Crime Report",
+                        "text": "web application J2EE , It will track the reports both user based and Anonymous and submit case deteils to related Police station , and keep managing status of report"
+                    },
+                    {
+                        "head": " Bank system",
+                        "text": "web application J2EE , Online transaction and managing users details and balance state , it is small concept based application for bank Process"
+                    },
+                    {
+                        "head": "Files Uploading",
+                        "text": "web application J2EE , like Cloud storage user can upload ther data and can view listen audio video photos documents .etc files are stored in database Blob"
+                    },
+                    {
+                        "head": "Library management",
+                        "text": "Desktop Application ,To Manage the Books of Library and issue and return Functionality"
+                    }
+                ]
+            }
+        ],
+        "summary": [
+            {
+                "title": "Summary",
+                "options": [
+                    {
+                        "class": "bi-book-half",
+                        "head": "Professional Angular Developer",
+                        "text": [
+                            "Experienced Angular Developer with 2+ years of experience and a degree in Computer Science. Expert in Angular with experience in versions above Angular 12+. Skilled in Node.js, HTML, CSS, SSR , and Agile methodologies."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,119 @@
+<section class="d-fle x  p-3 pb-0 w-100">
+    <div class="bottom-panel p-0 ">
+        <div class="box mt-4 mb-2 p-3" *ngFor="let item of data.summary">
+            <div class="title">
+                <h4 class="pb-1 m-0 text-uppercase" [innerHTML]="item.title|textTransform"></h4>
+            </div>
+            <div class="details mt-2">
+                <div class="option d-flex mt-2" *ngFor="let option of item.options">
+                    <div class="icon me-2">
+                        <i class="bi {{option.class?option.class:'bi-star-fill'}}"></i>
+                    </div>
+                    <div class="text  ">
+                        <div class="head fw-bold border-bottom w-50" style="min-width: max-content;" *ngIf="option.head"
+                            [innerHTML]="option.head|textTransform">
+                        </div>
+                        <div class="mt-2" *ngFor="let text of option.text" [innerHTML]="text|textTransform"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-panel  p-0 ">
+        <ng-content></ng-content>
+        <ng-container *ngFor="let data of data.panels">
+            <div class="panel p-3 mt-4 pt-3" *ngIf="!data.hidden">
+                <div class="heading mt-2">
+                    <h3 class="title p-0 m-0 fw-bold" [innerHTML]="data.title|textTransform"> </h3>
+                </div>
+                <ul>
+                    <li class="body p-1" *ngFor="let item of data.exps">
+                        <div class="role  d-flex">
+                            <span class="flex-fill ">
+                                <h5 class="fw-bold mt-2" [innerHTML]="item.role|textTransform"> </h5>
+                            </span>
+                            <div *ngIf="item.date" class="date w-50 mt-2 d-flex justify-content-between pe-5">
+                                <div class="from">
+                                    <i class="bi me-1 {{item.date.fromIcon?item.date.fromIcon:''}} "></i>
+                                    {{item.date.from}} - <span class="to"
+                                        *ngIf="item.date.to;else present">{{item.date.to}}
+                                    </span>
+                                    <ng-template #present>Present</ng-template>
+                                </div>
+
+                                <span class="at ms-3">
+                                    <i class="bi me-1 {{item.date.atIcon?item.date.atIcon:''}} "></i>
+                                    {{item.date.at}}</span>
+                            </div>
+                        </div>
+
+                        <div class="list mt-2" *ngIf="item?.lists?.length>0">
+                            <ul>
+                                <ng-container *ngFor="let option of item.lists">
+                                    <ng-container *ngIf="isArray(option);else templateUL">
+                                        <li [innerHTML]="option|textTransform"> </li>
+                                    </ng-container>
+                                    <ng-template #templateUL>
+                                        <li>
+                                            {{option.name|textTransform}}
+                                            <ul>
+                                                <li *ngFor="let item of option.data" [innerHTML]="item|textTransform">
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ng-template>
+                                </ng-container>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="p-2" *ngIf="data.adds">
+                    <ng-container *ngFor="let add of data.adds">
+                        <div class="d-flex w-100" *ngIf="!add.hidden">
+                            <div *ngIf="add.title.length>0"
+                                class="me-2 d-flex align-items-center justify-content-center text-nowrap fw-bold"
+                                style="min-width: 70px;" [innerHTML]="add.title|textTransform"> </div>
+                            <div class="w-100">
+                                <div class="d-flex flex-wrap" style="background-color: #F0F0F0;">
+                                    <ng-container *ngFor="let name of add.data">
+                                        <div style="min-width: 30%;" class="d-flex align-items-center">
+                                            <span class="bi bi-dot h4 m-0 p-0">
+                                            </span>
+                                            <span class="m-0 p-0 rounded" [innerHTML]="name|textTransform"> </span>
+                                        </div>
+                                    </ng-container>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-container>
+                </div>
+            </div>
+        </ng-container>
+
+    </div>
+
+    <div class="bottom-panel p-0 ">
+        <ng-container *ngFor="let item of data.sidePanel">
+            <div class="box mt-4 mb-2 p-3" *ngIf="!item.hidden">
+                <div class="title">
+                    <h4 class="pb-1 m-0 text-uppercase">{{item.title}}</h4>
+                </div>
+                <div class="details mt-2">
+                    <ul>
+                        <li class="option   mt-2" *ngFor="let option of item.options">
+                            <div class="icon me-2">
+                                <i class="bi {{option.class?option.class:'bi-star-fill'}}"></i>
+                            </div>
+                            <div class="text  ">
+                                <div class="head fw-bold border-bottom w-50" style="min-width: max-content;"
+                                    *ngIf="option.head" [innerHTML]="option.head|textTransform">
+                                </div>
+                                <div [innerHTML]="option.text|textTransform"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</section>

@@ -1,0 +1,56 @@
+.a4 {
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+
+    .main-body {
+        display: flex;
+        // background-color: #f2f2f2;
+        justify-content: space-between;
+    }
+
+    // background-color: red;
+}
+
+@page {
+    size: 21cm 30cm !important;
+    // margin: 10cm !important;
+    // orientation: portrait;
+}
+
+::ng-deep {
+    .panel {
+        // border: 1px rgb(220, 53, 69) solid;
+        // border: 1px #0B6F6D solid;
+        border-radius: 10px;
+        padding: 5px 5px;
+        // box-shadow: 5px 5px 15px 0px #e2e8ec;
+    }
+
+    ul {
+        list-style-type: disclosure-closed;
+
+        li::marker {
+            color: var(--bs-danger);
+        }
+    }
+
+    .bg-danger,
+    .text-bg-danger {
+        background-color: #0B6F6D !important;
+    }
+
+    .text-bg-danger {
+        color: #0B6F6D;
+    }
+}
+
+@media print {
+    .print-btn {
+        display: none;
+    }
+    .a4 {
+        
+    // overflow: visible
+    }
+}
