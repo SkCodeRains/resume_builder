@@ -1,34 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
-:root {
-    --bs-danger-rgb: 190, 53, 69;
-}
+
+
+
+
+
+
+
+
+
+
+// @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import 'bootstrap/scss/bootstrap';
+
+
+
+
+
+
+
+
+
+
+
+
 
 html,
 body {
-    // font-family: "YS Text", arial, helvetica, sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     font-size: 13px;
-
-    .btn,
-    * {
-        font-weight: 600;
-    }
-
-    .text-danger {
-        // --bs-text-opacity: 0.8;
-    }
-
-    .bg-success {
-        --bs-bg-opacity: 1;
-        background-color: rgb(29 88 60) !important;
-    }
+    color: rgb(var(--bs-secondary-rgb));
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
 
     .h3 {
-        font-size: 20px !important;
+        font-size: 18px !important
     }
 }
 
@@ -41,7 +50,7 @@ body {
 }
 
 strong {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 @media screen {
@@ -50,4 +59,32 @@ strong {
         justify-content: center;
         width: 100vw;
     }
+}
+
+.gre {
+
+    // background: rgb(0, 116, 183);
+    // background: linear-gradient(175deg, rgba(18, 81, 118, 0.779) 0%, rgba(0, 116, 183, 0.4375875350140056) 82%);
+    // color: white !important;
+}
+
+hr {
+    // background-color: #004167 !important;
+    // border-color: red !important;
+    background: rgb(0, 116, 183);
+    background: linear-gradient(90deg, rgba(0, 116, 183, 1) 0%, rgba(0, 116, 183, 0.4375875350140056) 82%);
+    opacity: 1 !important;
+    height: 2px;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+    margin-block-start: 0em !important;
+
+}
+
+.title {
+    color: rgb(0, 116, 183);
+}
+
+.panel {
+    margin: 0.5rem 0 0 0;
 }

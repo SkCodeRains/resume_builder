@@ -20,41 +20,11 @@
 
 .print-btn{
     border-radius: 50%;
-}
-::ng-deep {
-    .panel {
-        // border: 1px rgb(220, 53, 69) solid;
-        // border: 1px #0B6F6D solid;
-        border-radius: 10px;
-        padding: 5px 5px;
-        // box-shadow: 5px 5px 15px 0px #e2e8ec;
-    }
-
-    ul {
-        list-style-type: disclosure-closed;
-
-        li::marker {
-            color: var(--bs-danger);
-        }
-    }
-
-    .bg-danger,
-    .text-bg-danger {
-        background-color: #0B6F6D !important;
-    }
-
-    .text-bg-danger {
-        color: #0B6F6D;
-    }
-}
-
+} 
 @media print {
     .print-btn {
         display: none;
-    }
-    .a4 {
-        
-    // overflow: visible
-    }
+    } 
 }
+
 

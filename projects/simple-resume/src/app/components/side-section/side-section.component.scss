@@ -8,31 +8,14 @@
 
 }
 
-.flex-wrap-marker {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-}
-
-.flex-wrap-marker li {
-    // flex-basis: calc(33.33% - 10px); /* Adjust as needed */
-    margin-right: 25px;
-    /* Adjust as needed */
-    margin-bottom: 10px;
-    /* Adjust as needed */
-    position: relative;
-}
-
-.flex-wrap-marker li::before {
-    content: "•";
-    /* Bullet point */
-    position: absolute;
-    left: -8px;
+ul {
+    list-style-type: none; 
 }
 
 .skill-btn {
-    border-radius: 3rem;
+    border-radius: 0.2rem; 
+    font-weight: 500;
     // background-color: #0B6F6D !important;
     min-width: max-content;
+    margin: 0 2px;
 }

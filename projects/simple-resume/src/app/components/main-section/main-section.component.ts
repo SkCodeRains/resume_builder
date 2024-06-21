@@ -13,5 +13,6 @@ export class MainSectionComponent {
   courses = this.dataService.courses;
   education = this.dataService.education;
   projects = this.dataService.projects;
+  skills = this.dataService.skillsDetails;
 
 }
