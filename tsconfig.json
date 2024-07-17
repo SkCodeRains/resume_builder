@@ -16,6 +16,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "common": [
+        "./dist/common"
+      ],
       "resume-data": [
         "dist/resume-data"
       ]

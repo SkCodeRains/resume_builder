@@ -1,0 +1,49 @@
+section {
+    &.dashboard {
+        width: 100vw; 
+
+        .resume-container {
+            display: grid;
+            grid-gap: 10px;
+            justify-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+
+            .card {
+                height: 400px;
+                width: 350px;
+                box-shadow: 5px 5px 10px #00000080, -1px 0 5px #ffffff3e !important;
+
+                &,
+                * {
+                    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+                    &:target,
+                    &:focus,
+                    &:active {
+                        scale: 0.9 !important;
+                    }
+                }
+
+
+
+                &:hover,
+                :hover {
+                    scale: 1.01;
+                }
+
+
+
+                &.add {
+                    .btn {
+
+                        &:hover {
+                            scale: 1.3;
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+ 
+
+.section {
+    width: 100%;
+
+    .links {
+        column-count: 1;
+    }
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.skill-btn {
+    border-radius: 0.2rem;
+    font-weight: 500;
+    // background-color: #0B6F6D !important; 
+    min-width: max-content;
+    margin: 0 2px;
+}

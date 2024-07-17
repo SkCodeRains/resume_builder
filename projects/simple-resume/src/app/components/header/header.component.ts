@@ -1,11 +1,13 @@
-import { Component, inject } from '@angular/core';
-import { DataService } from '../../data-services/data.service';
+import { Component } from '@angular/core';
+import { LogoComponent } from '../logo/logo.component';
 
 @Component({
   selector: 'app-header',
+  standalone: true,
+  imports: [LogoComponent],
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  personalDetails = inject(DataService).personalDetails;
+
 }
