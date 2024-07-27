@@ -1,0 +1,10 @@
+<section class="screen align-items-baseline center w-100 h-100" #resume>
+    <div class="a4 p-2 bg-white ">
+        <app-resume-header [_links]="resumeData().links" [_personalDetails]="resumeData().personalDetails"
+            [form]="config()[0].form" />
+        <div class="main-body h-100 w-100  ">
+            <app-main-section style="width: 60% !important;" />
+            <app-side-section style="width: 45% !important;" />
+        </div>
+    </div>
+</section>

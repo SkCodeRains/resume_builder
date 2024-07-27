@@ -1,0 +1,45 @@
+@if (false) {
+<section id="resume-builder-section" class="main-panel-height overflow-hidden">
+    <div class="resume-builder-container w-100 h-100 d-flex ">
+        <div class="editor w-50 h-100 p-2">
+            <nav class=" w-100 navbar">
+                <div>
+                    <button mat-fab aria-label="Example icon button with a delete icon">
+                        <mat-icon>home</mat-icon>
+                    </button>
+                </div>
+
+                <div class=" center gap-4">
+
+                    <button mat-fab aria-label="Example icon button with a delete icon" class="center">
+                        <mat-icon>arrow_back_ios</mat-icon>
+                    </button>
+
+                    <button mat-fab aria-label="Example icon button with a delete icon"
+                        class=" w-auto px-lg-5 px-3 center flex-row-reverse">
+                        <mat-icon>arrow_forward_ios</mat-icon>
+                        <h3 class="m-0 me-2 p-0">Next</h3>
+                    </button>
+
+                </div>
+            </nav>
+
+            <div class="card mt-2 p-2 pt-3">
+
+                <div class="">
+                    <app-dynamic-forms [currentConfig]="currentConfig"></app-dynamic-forms>
+                </div>
+            </div>
+
+        </div>
+        <div class="viewer w-50 h-100 overflow-y-auto">
+            <app-resume-viewer [resumeData]="resumeData" [config]="config()"></app-resume-viewer>
+        </div>
+
+
+    </div>
+
+</section>
+}
+
+<app-resume-viewer [resumeData]="resumeData" [config]="config()"></app-resume-viewer>

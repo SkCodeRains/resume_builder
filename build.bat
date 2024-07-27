@@ -13,5 +13,5 @@ if not exist "%destination_dir%" mkdir "%destination_dir%"
 REM Copy files and directories from source to destination recursively
 xcopy /s /e /y "%source_dir%\*" "%destination_dir%"
 
-REM Remove the "dist" folder
-rmdir /s /q "dist"
+@REM REM Remove the "dist" folder
+@REM rmdir /s /q "dist"

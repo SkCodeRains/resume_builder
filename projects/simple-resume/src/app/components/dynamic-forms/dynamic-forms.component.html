@@ -1,0 +1,30 @@
+@if (form) {
+<div >
+
+    <form [formGroup]="form" class="row row-cols-2">
+        @for (field of formFields; track $index) {
+
+        @switch (field.type) {
+        @case ("text") {
+        <mat-form-field class="example-full-width">
+            <mat-label class="text-capitalize">{{field.title}}</mat-label>
+            <input matInput [placeholder]="field.placeholder" [formControlName]="field.title">
+        </mat-form-field>
+        }
+        @case("textarea"){
+        <div templateRenderer [outlet]="textEditorContext" class="mt-2">
+            <app-text-editor [editorContent]="form.get(field.title)"></app-text-editor>
+        </div>
+        }
+        }
+        }
+    </form>
+
+</div>
+
+
+
+<div class="card" #textEditorContext>
+</div>
+
+}

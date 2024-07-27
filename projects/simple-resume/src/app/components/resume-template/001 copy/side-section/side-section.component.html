@@ -1,0 +1,90 @@
+<div class="section px-1">
+    <div class="skill panel px-1 ">
+        <hr class=" p-0  border-0">
+        <div class="title  h3 fw-bolder text-uppercase">Skill Set :</div>
+        <ul class="m-0 d-flex p-0 flex-wrap justify-content-between text-uppercase ">
+            @for (skill of skills; track $index) {
+
+            @for (item of getSkill(skill.details); track $index) {
+            <li>
+                <div class="border-dark border skill-btn px-1 my-1 gre">{{item}}, </div>
+            </li>
+            }
+
+            @if(false){
+            <li>
+                <div class="skill pe-3">
+                    <div class="d-flex flex-wrap">
+                        <span class="title fw-bold me-2 h5" [innerText]="skill.title" *ngIf="skill.title"></span>
+                        @for (item of getSkill(skill.details); track $index) {
+                        <div class="border-dark border f skill-btn px-1 my-1 gre">{{item}}</div>
+                        }
+                    </div>
+                    <!-- <span class="  fst-italic fw-lighter ">{{skill.details}}</span> -->
+                    <!-- <ngb-progressbar class="mb-3" type="danger" [value]="skill.pro" /> -->
+                </div>
+            </li>
+            }
+            }
+        </ul>
+    </div>
+    <div class="links panel px-1 d-flex align-items-center flex-wrap">
+        <div class="w-100">
+            <hr class=" p-0  border-0   ">
+            <div class="title  h3 fw-bolder text-uppercase">Links :</div>
+        </div>
+        <div class="row-cols-s2 d-flex align-items-center flex-wrap">
+            @for (link of links; track $index) {
+            <div class="link d-flex align-items-center my-1 m-2 px-1 border border-dark skill-btn">
+                <a class="text-capitalize center btn text-start m-0 p-0" target="_blank" [title]="link.name"
+                    [href]="link.href">
+                    <span class=" m-0 p-0 h6 me-2 center {{link.icon}}"></span>
+                    <span [innerHTML]="link.name"></span>
+                </a>
+            </div>
+            }
+        </div>
+    </div>
+
+
+
+    <div class="projects panel px-1 ">
+        <hr class=" p-0  border-0   ">
+        <div class="title  h3 fw-bolder text-uppercase"> CAREER OBJECTIVE :</div>
+        <div class="box py-1 text-justify"> {{objective}} </div>
+    </div>
+
+    <div class="strength panel px-1 ">
+        <hr class=" p-0  border-0   ">
+        <div class="title  h3 fw-bolder text-uppercase">Strength :</div>
+        <div class="box py-1">
+
+            @for (st of strength; track $index) {
+            <div class="skill pe-3 d-flex pt-1">
+                <span class="{{st.class}}  me-2 h4 "></span>
+                <div class=" " [innerHTML]="st.text|textTransform"></div>
+            </div>
+            }
+
+
+        </div>
+    </div>
+    <div class="projects panel px-1 ">
+        <hr class=" p-0  border-0   ">
+        <div class="title  h3 fw-bolder text-uppercase"> education :</div>
+        <div class="box py-1">
+
+            @for (edu of education; track $index) {
+            <div class="course ">
+                <div class=" d-flex fw-bold">{{edu.title}} <span class="flex-fill"></span>
+                    <div class="  fst-italic">{{edu.by}}</div>
+                </div>
+                <div class="">{{edu.from}} </div>
+            </div>
+            }
+
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,86 @@
+@import "http://localhost:4200/styles.css";
+
+
+
+.screen {
+
+    .a4 {
+        min-width: 21cm !important;
+        max-width: 21cm !important;
+
+        height: 29.7cm;
+        overflow: hidden;
+
+        .main-body {
+            display: flex;
+            // background-color: #f2f2f2;
+            justify-content: space-between;
+        }
+    }
+
+    @page {
+        size: 21cm 39cm !important;
+        margin: none !important;
+        orientation: portrait;
+    }
+
+    .h3 {
+        font-size: 18px !important
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .max-content {
+        width: max-content;
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+    @media screen {
+        body {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+        }
+    }
+
+    hr {
+        background: rgb(0, 116, 183);
+        background: linear-gradient(90deg, rgba(0, 116, 183, 1) 0%, rgba(0, 116, 183, 0.4375875350140056) 82%);
+        opacity: 1 !important;
+        height: 2px;
+        margin: 0 !important;
+        margin-bottom: 5px !important;
+        margin-block-start: 0em !important;
+
+    }
+
+    .title {
+        color: rgb(0, 116, 183);
+    }
+
+    .panel {
+        margin: 0.5rem 0 0 0;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-panel-height {
+    height: calc(100dvh - 60px);
+    width: 100%;
+}
+
+.shadow-3d {
+    box-shadow: 5px 5px 10px #00000080, -1px 0 5px #ffffff3e !important;
+}
+ 
