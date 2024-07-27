@@ -140,29 +140,30 @@ export class DataService {
   ]
   links = [
     {
-
-      "name": "PortFolio",
-      "icon": "bi-award-fill",
-      "href": "https://skcoderains.github.io/portfolio/"
-    },
-    {
-      "name": "GitHub",
-      "icon": "bi-github",
-      "href": "https://github.com/SkCodeRains"
-    },
-
-    {
-      "name": "Gmail",
+      "name": "skcoderains@gmail.com",
       "icon": "bi-google",
       "href": "mailto:skcoderains@gmail.com"
     },
     {
-      "name": "LinkedIn",
+
+      "name": "Click on Portfolio",
+      "icon": "bi-award-fill",
+      "href": "https://skcoderains.github.io/portfolio/"
+    },
+    {
+      "name": "Click on GitHub",
+      "icon": "bi-github",
+      "href": "https://github.com/SkCodeRains"
+    },
+
+
+    {
+      "name": "Click on LinkedIn",
       "icon": "bi-linkedin",
       "href": "https://linkedin.com/in/CodeRains/"
     },
     {
-      "name": "LeetCode",
+      "name": "Click on LeetCode",
       "icon": "bi-code-square",
       "href": "https://leetcode.com/coderains/"
     },
@@ -172,19 +173,19 @@ export class DataService {
       "href": "tel:+917972914439"
     },
 
-    {
-      "name": "Amravati",
-      "icon": "bi-pin-map-fill",
-      "value": "Amravati Maharashtra India",
-      "href": "https://maps.app.goo.gl/6Bn5ud5X1i2P5zdHA"
-    },
+    // {
+    //   "name": "Amravati",
+    //   "icon": "bi-pin-map-fill",
+    //   "value": "Amravati Maharashtra India",
+    //   "href": "https://maps.app.goo.gl/6Bn5ud5X1i2P5zdHA"
+    // },
 
   ];
   skills: Array<{ title?: string, details: string, pro: number }> = [
 
     {
       title: "Front-end skills:",
-      details: `Agile Methodology, Java, Angular, CSS, Spring Boot, Node.js, RESTful APIs, SaaS, Microservices, OAuth2, Git, JavaScript, JQuery, TypeScript, PostgresSQL, SQL, NoSQL, Docker,JPA, Hibernate, Maven, Jenkins, Cloud Services, AWS, JSON, XML, RxJS, NgRx, HTML, JUnit, Mockito, Responsive Design, Animations, D3.js, Reactive Coding,  HTTP, Cross-Browser,  WebSockets, Diagnostics`,
+      details: `Agile Methodology, Java, Angular, CSS, Spring Boot, Node.js, RESTful APIs, SaaS, Microservices, OAuth2, Git, JavaScript, JQuery, TypeScript, PostgresSQL, SQL, MongoDB, Docker, JPA, AWS, Hibernate, Maven, Jenkins, Cloud Services, JSON, XML, RxJS, NgRx, HTML, JUnit, Mockito, Responsive Design, Animations, D3.js, Reactive Coding,  HTTP, Cross-Browser,  WebSockets, Diagnostics`,
       pro: 100,
     },
     // {
