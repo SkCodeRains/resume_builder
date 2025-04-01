@@ -8,11 +8,10 @@ import { CommonModule } from '@angular/common';
 import { TemplateRendererDirective } from 'common';
 
 @Component({
-  selector: 'app-dynamic-forms',
-  standalone: true,
-  imports: [FormsModule, MatFormFieldModule, MatInputModule, TextEditorComponent, ReactiveFormsModule, CommonModule, TemplateRendererDirective],
-  templateUrl: './dynamic-forms.component.html',
-  styleUrl: './dynamic-forms.component.scss'
+    selector: 'app-dynamic-forms',
+    imports: [FormsModule, MatFormFieldModule, MatInputModule, TextEditorComponent, ReactiveFormsModule, CommonModule, TemplateRendererDirective],
+    templateUrl: './dynamic-forms.component.html',
+    styleUrl: './dynamic-forms.component.scss'
 })
 export class DynamicFormsComponent {
 

@@ -1,11 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap-icons/font/bootstrap-icons.css";
+@use "bootstrap-icons/font/bootstrap-icons.css";
 // @import "~bootstrap/dist/css/bootstrap.min.css";
 
-@import 'bootstrap/scss/bootstrap';
+@use 'bootstrap/scss/bootstrap';
 
 
 
+:root {
+    --page-width: 21cm;
+    --page-height: 30cm;
+}
 
 
 html,
@@ -17,6 +21,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 .center {
@@ -38,8 +43,8 @@ body {
     min-width: 21cm !important;
     max-width: 21cm !important;
 
-    height: 29.7cm;
-    overflow: hidden;
+    // height: 29.7cm;
+    // overflow: hidden;
 
     .main-body {
         display: flex;
@@ -49,7 +54,11 @@ body {
 }
 
 @page {
-    size: 21cm 30cm !important;
+    size: var(--page-width) var(--page-height) !important;
     margin: none !important;
     orientation: portrait;
+}
+
+.heading {
+    color: #d91a70  !important;
 }

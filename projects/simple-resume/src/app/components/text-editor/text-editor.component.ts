@@ -3,11 +3,10 @@ import { AbstractControl, FormControl, FormGroup, ReactiveFormsModule } from '@a
 import { Editor, NgxEditorModule, Toolbar, Validators } from 'ngx-editor';
 
 @Component({
-  selector: 'app-text-editor',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgxEditorModule],
-  templateUrl: './text-editor.component.html',
-  styleUrl: './text-editor.component.scss'
+    selector: 'app-text-editor',
+    imports: [ReactiveFormsModule, NgxEditorModule],
+    templateUrl: './text-editor.component.html',
+    styleUrl: './text-editor.component.scss'
 })
 export class TextEditorComponent {
 

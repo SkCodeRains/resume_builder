@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-common',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'lib-common',
+    imports: [],
+    template: `
     <p>
       common works!
     </p>
   `,
-  styles: ``
+    styles: ``
 })
 export class CommonComponent {
 

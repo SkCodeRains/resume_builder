@@ -15,11 +15,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/simple-resume",
+            "outputPath": {
+              "base": "dist/simple-resume"
+            },
             "index": "projects/simple-resume/src/index.html",
-            "main": "projects/simple-resume/src/main.ts", 
             "tsConfig": "projects/simple-resume/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -30,7 +31,8 @@
               "projects/simple-resume/src/styles.scss",
               "@angular/material/prebuilt-themes/azure-blue.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "browser": "projects/simple-resume/src/main.ts"
           },
           "configurations": {
             "production": {
@@ -49,9 +51,7 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptimizer": false,
               "optimization": false,
-              "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
