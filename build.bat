@@ -4,7 +4,7 @@ REM Remove the "docs" folder
 rmdir /s /q "docs"
 
 REM Define source and destination directories
-set "source_dir=dist\simple-resume"
+set "source_dir=dist\simple-resume\browser"
 set "destination_dir=docs"
 
 REM Create destination directory if it doesn't exist

@@ -11,7 +11,7 @@
 }
 
 ul {
-    list-style-type: none;
+    // list-style-type: none;
 }
 
 .skill-btn {
@@ -20,4 +20,8 @@ ul {
     // background-color: #0B6F6D !important; 
     min-width: max-content;
     margin: 0 2px;
+}
+
+.bullet{
+    line-height: 1px;
 }

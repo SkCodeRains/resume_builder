@@ -2,9 +2,10 @@ import { Component, inject } from '@angular/core';
 import { DataService } from '../../../../data-services/data.service';
 
 @Component({
-  selector: 'app-main-section',
-  templateUrl: './main-section.component.html',
-  styleUrls: ['./main-section.component.scss'],
+    selector: 'app-main-section',
+    templateUrl: './main-section.component.html',
+    styleUrls: ['./main-section.component.scss'],
+    standalone: false
 })
 export class MainSectionComponent {
 

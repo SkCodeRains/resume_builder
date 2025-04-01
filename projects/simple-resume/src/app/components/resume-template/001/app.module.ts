@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ResumeHeaderComponent } from './header/header.component';
 import { MainSectionComponent } from './main-section/main-section.component';
-import { SideSectionComponent } from './side-section/side-section.component';
+import { ButtonComponent, SideSectionComponent } from './side-section/side-section.component';
 import { CommonModule } from '@angular/common';
 import { TextTransform } from 'common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ResumeHeaderComponent,
     MainSectionComponent,
     SideSectionComponent,
+    ButtonComponent
   ],
   imports: [
     TextTransform,
@@ -22,6 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ResumeHeaderComponent,
     MainSectionComponent,
     SideSectionComponent,
+    
   ]
 })
 export class ResumeViewerModule { }

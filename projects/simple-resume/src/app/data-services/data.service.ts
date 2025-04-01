@@ -16,6 +16,27 @@ export class DataService {
   // Hands-on experience in build and deployment through CI/CD pipelines with Jenkins, Docker And Kubernetes.
 
   experiences = [
+
+    {
+      title: "Software Engineer (FE/BE)",
+      at: "A2Z Solutions",
+      location: "Hyderabad",
+
+      //       Software Engineer (FE/BE) OSI Systems, Hyderabad (May 2022 - Oct 2023)
+
+      // - Directed and managed the development of scalable features in micro front-end and microservices using Spring Boot 3 and Angular.
+      // - Designed and deployed a software update, resulting in a 30% reduction in system errors and a 25% improvement in application performance.
+      // - Implemented a real-time data analytics dashboard with Angular, enhancing user experience and enabling dynamic data visualization.
+      // - Introduced unit testing and code review processes using Jasmine/Karma for Angular and JUnit for Spring Boot, reducing bugs by 35%.
+
+      date: "Oct 2023 - Present",
+      list: [
+        `\\BDeveloped and maintained web applications\\B using \\BAngular\\B and \\BSpring Boot\\B with a focus on scalability and multi-user role-based access control.`,
+        `Designed and managed \\BMySQL databases\\B, ensuring data integrity and optimized query performance for customer and licensing modules.`,
+        `Configured and maintained \\BOracle Cloud\\B Linux instances, ensuring secure and uninterrupted server operations for hosting Spring Boot applications.`,  
+        `Proactively identified and resolved system performance issues, improving overall application \\Bstability\\B and \\Bscalability\\B.`,
+      ]
+    },
     {
       title: "Software Engineer (FE/BE)",
       at: "OSI Systems.",
@@ -37,13 +58,16 @@ export class DataService {
         // "Technologies & Skills : Java, Angular 12+/17, Micro Services, Micro Front-End, SpringFLo, Spring Boot, Spring Security, Angular Material, NgBootstrap, D3.JS, Gridster.Js, Docker, OKTA, OAuth2, Jenkins, Postgres, Redis, RabbitMQ, WebSocket"
       ],
       list: [
-        `Developed scalable \\Bmicro front-end\\B and \\Bmicroservices\\B solutions using \\BSpring Boot 3\\B and \\BAngular\\B, enhancing application flexibility and performance.Designed and implemented RESTful APIs using Spring Boot.`,
+        `Specialized as an \\BAngular\\B and \\BSpring Boot\\B Developer focusing on \\Bsecurity integration systems\\B for \\Bairport\\B and \\Bborder scanning processes\\B.`,
+        // `Developed scalable \\Bmicro front-end\\B and \\Bmicroservices\\B solutions using \\BSpring Boot 3\\B and \\BAngular\\B, enhancing application flexibility and performance.Designed and implemented RESTful APIs using Spring Boot.`,
+        `My role encompassed developing \\Bcomplex features\\B, \\Bdesigning\\B intuitive user \\Binterfaces\\B, creating advanced data \\Bvisualizations\\B and \\Bbindings\\B, implementing \\Breal-time updates\\B, and ensuring cross-browser compatibility and application \\Bresponsiveness\\B.`,
         `Led the migration efforts from \\BAngularJS\\B to \\BAngular 15/16\\B and \\BSpring Boot 2\\B to \\BSpring Boot 3\\B, ensuring \\Bmodernization\\B and improved functionality of core applications.`,
         `Contributed \\BAWS Jenkins\\B integrations for \\Bautomated build\\B, test, and deployment pipelines, reducing deployment time and enhancing team efficiency.`,
         `Utilized \\BAngular Elements\\B to create \\Breusable components\\B for generating micro-front applications, streamlining development and maintaining consistency across projects.`,
         `Collaborated in an \\BAgile environment\\B, participating in \\Bsprint planning\\B, daily stand-ups, and retrospectives to deliver high quality software solutions on schedule.`,
       ]
-    }
+    },
+
   ]
   // experiences = [
   //   {
@@ -110,24 +134,24 @@ export class DataService {
       from: "NextLeap",
       href: "https://assets.nextleap.app/certificate/Cohort-5-c63a38463c352705c003a89879ba3e62.pdf"
     },
-    // {
-    //   title: "Full Stack Java Developer affiliated by NASSCOM",
-    //   from: "Naresh-IT Hyderabad",
-    // },
-    // {
-    //   title: "Master Spring Boot 3 & Spring Framework 6 with Java",
-    //   from: "Udemy",
-    //   href: "https://www.udemy.com/certificate/UC-beb6c7c4-eaa1-4e86-b9dc-1da2fc2159c7/"
-    // },
-    // {
-    //   title: "Spring Security 6 Zero to Master along with JWT,OAUTH2",
-    //   from: "Udemy",
-    //   href: "https://www.udemy.com/certificate/UC-7ab11234-ee09-4d69-9f37-63c2e95cd814/"
-    // },
-    // {
-    //   title: "Angular - The Complete Guide (2024 Edition)",
-    //   from: "Udemy"
-    // },
+    {
+      title: "Full Stack Java Developer affiliated by NASSCOM",
+      from: "Naresh-IT",
+    },
+    {
+      title: "Master Spring Boot 3 & Spring Framework 6 with Java",
+      from: "Udemy",
+      href: "https://www.udemy.com/certificate/UC-beb6c7c4-eaa1-4e86-b9dc-1da2fc2159c7/"
+    },
+    {
+      title: "Spring Security 6 Zero to Master along with JWT,OAUTH2",
+      from: "Udemy",
+      href: "https://www.udemy.com/certificate/UC-7ab11234-ee09-4d69-9f37-63c2e95cd814/"
+    },
+    {
+      title: "Angular",
+      from: "Udemy"
+    },
 
   ];
   education = [
@@ -145,28 +169,27 @@ export class DataService {
       "href": "mailto:skcoderains@gmail.com"
     },
     {
-
       "name": "Click on Portfolio",
       "icon": "bi-award-fill",
       "href": "https://skcoderains.github.io/portfolio/"
     },
-    {
-      "name": "Click on GitHub",
-      "icon": "bi-github",
-      "href": "https://github.com/SkCodeRains"
-    },
+    // {
+    //   "name": "Click on GitHub",
+    //   "icon": "bi-github",
+    //   "href": "https://github.com/SkCodeRains"
+    // },
 
 
-    {
-      "name": "Click on LinkedIn",
-      "icon": "bi-linkedin",
-      "href": "https://linkedin.com/in/CodeRains/"
-    },
-    {
-      "name": "Click on LeetCode",
-      "icon": "bi-code-square",
-      "href": "https://leetcode.com/coderains/"
-    },
+    // {
+    //   "name": "Click on LinkedIn",
+    //   "icon": "bi-linkedin",
+    //   "href": "https://linkedin.com/in/CodeRains/"
+    // },
+    // {
+    //   "name": "Click on LeetCode",
+    //   "icon": "bi-code-square",
+    //   "href": "https://leetcode.com/coderains/"
+    // },
     {
       "name": "+917972914439",
       "icon": "bi-telephone-inbound-fill",
@@ -181,13 +204,13 @@ export class DataService {
     // },
 
   ];
-  skills: Array<{ title?: string, details: string, pro: number }> = [
+  skills: Array<{ title?: string, skills: string, pro: number, nested?: any }> = [
 
-    {
-      title: "Front-end skills:",
-      details: `Agile Methodology, Java, Angular, CSS, Spring Boot, Node.js, RESTful APIs, SaaS, Microservices, OAuth2, Git, JavaScript, JQuery, TypeScript, PostgresSQL, SQL, MongoDB, Docker, JPA, AWS, Hibernate, Maven, Jenkins, Cloud Services, JSON, XML, RxJS, NgRx, HTML, JUnit, Mockito, Responsive Design, Animations, D3.js, Reactive Coding,  HTTP, Cross-Browser,  WebSockets, Diagnostics`,
-      pro: 100,
-    },
+    // {
+    //   title: "Front-end skills:",
+    //   details: `Agile Methodology, Java, Angular, CSS, Spring Boot, Node.js, RESTful APIs, SaaS, Microservices, OAuth2, Git, JavaScript, JQuery, TypeScript, PostgresSQL, SQL, MongoDB, Docker, JPA, AWS, Hibernate, Maven, Jenkins, Cloud Services, JSON, XML, RxJS, NgRx, HTML, JUnit, Mockito, Responsive Design, Animations, D3.js, Reactive Coding,  HTTP, Cross-Browser,  WebSockets, Diagnostics`,
+    //   pro: 100,
+    // },
     // {
     //   title: "Front-end skills:",
     //   details: "HTML, CSS, SCSS, JavaScript, TypeScript, Angular, React",
@@ -208,6 +231,43 @@ export class DataService {
     //   details: "Algorithms, Flexibility, Analytical, Problem-Solver, Quick Learner, Coding Attitude",
     //   pro: 100
     // },
+    {
+      "title": "Programming Languages",
+      "skills": `Java, JavaScript, TypeScript, SQL`,
+      nested: {
+        title: "Familiar",
+        "skills": `C, C++, Python`
+      },
+      pro: 100
+    },
+    {
+      "title": "Web Development",
+      "skills": `Angular, Spring Boot, NodeJs, HTML, CSS/SCSS`,
+      nested: {
+        title: "Familiar",
+        "skills": `ExpressJs, ReactJs, NextJs, Ejs`
+      },
+      pro: 100
+    },
+    {
+      "title": "Databases",
+      "skills": `Postgres, MySql, OracleDB, Mongodb`,
+      pro: 100
+    },
+    {
+      "title": "Tools",
+      "skills": `Git, Aws CodeCommit, Jira, Docker`,
+      nested: {
+        title: "Familiar",
+        "skills": `CI/CD, Jenkins, AWS`
+      },
+      pro: 100
+    },
+    {
+      "title": "Soft Skills",
+      "skills": `Communication, Team Work, Exceptional Analytical, Critical thinking, Troubleshooting Skills.`,
+      pro: 100
+    },
   ];
 
   projects = [
@@ -217,6 +277,7 @@ export class DataService {
     // },
     {
       "head": "Portfolio",
+      tech: "Angular 18",
       "text": ` Built a responsive portfolio to showcase skills and projects. Integrated custom directives and pipes for animations and behavior. Utilized Angular Material and Bootstrap for design, highlighting front-end development proficiency.`,
       links: [
         { icon: "bi-github", title: "GitHub", href: "https://github.com/SkCodeRains/portfolio" },
@@ -225,6 +286,7 @@ export class DataService {
     },
     {
       "head": "Task Management",
+      tech: "Angular 18,Spring Boot 3, NodeJs",
       "text": `A robust solution for efficient task management with an Angular frontend, and dual backends: Spring Boot with MySQL and Node.js with MongoDB. Ensures secure user authentication and seamless cross-device experience.`,
       links: [
         { icon: "bi-github", title: "GitHub", href: "https://github.com/SkCodeRains/task-management" },
@@ -237,6 +299,7 @@ export class DataService {
     // },
     {
       "head": "Crime File Management",
+      tech: "Advanced Java, JSP/Servlet, MySql.",
       "text": "Is build on \\BJ2EE\\B, \\BServlet\\B and \\Bjsp\\B to manage cyber fraud complaints with tracking applications and anonymous report option.",
       links: [
         { icon: "bi-github", title: "GitHub", href: "https://github.com/SkCodeRains/crimeFileManagement" },
@@ -286,7 +349,11 @@ export class DataService {
 
   // To succeed in an environment of growth and excellence and earn a job which provides me with an opportunity to attain satisfaction, self - development, help me achieve personal and organizational goals.
   objective = `
-  Full-Stack Developer with expertise in Angular and Spring Boot, seeking a challenging role. Eager to leverage skills in building scalable web applications and contribute to organizational success through innovative solutions.
+                              <span class="bullet   h3 m-0 p-0">&#8226;</span>
+ Full-Stack Developer with expertise in Angular and Spring Boot, seeking a challenging role. Want to explore technologies world deep dive. Eager to leverage skills in building scalable web applications and contribute to organizational success through innovative solutions.
+  <br>
+                              <span class="bullet   h3 m-0 p-0">&#8226;</span>
+ I want a highly rewarding career where I can use my skills and knowledge for organizational and personal growth.
   `
 
   achievement: string[] = [
@@ -297,5 +364,36 @@ export class DataService {
   public get personalDetails(): any {
     return this._personalDetails;
   }
+
+
+  profiles = [
+    {
+      org: "Portfolio",
+      username: "Mohammed Shaikh",
+      link: "https://skcoderains.github.io/portfolio/"
+    },
+    {
+      org: "LinkedIn",
+      username: "CodeRains",
+      link: "https://www.linkedin.com/in/coderains/"
+    },
+
+    {
+      org: "GitHub",
+      username: "SkCodeRains",
+      link: "https://github.com/SkCodeRains"
+    },
+    {
+      org: "LeetCode",
+      username: "CodeRains",
+      link: "https://leetcode.com/coderains/"
+    },
+    {
+      org: "CodeChef",
+      username: "CodeRains",
+      link: "https://www.codechef.com/users/coderains"
+    },
+  ];
+
   constructor() { }
 }

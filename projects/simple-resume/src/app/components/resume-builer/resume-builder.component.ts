@@ -9,11 +9,10 @@ import { IFormConfig, IFormField } from '../../interfaces/interfaces';
 import { Subscription, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'app-resume-builder',
-  standalone: true,
-  imports: [ResumeViewerComponent, DynamicFormsComponent, MatIconModule, MatButtonModule],
-  templateUrl: './resume-builder.component.html',
-  styleUrl: './resume-builder.component.scss'
+    selector: 'app-resume-builder',
+    imports: [ResumeViewerComponent, DynamicFormsComponent, MatIconModule, MatButtonModule],
+    templateUrl: './resume-builder.component.html',
+    styleUrl: './resume-builder.component.scss'
 })
 export class ResumeBuilderComponent {
 
